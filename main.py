@@ -100,6 +100,9 @@ class Ticket:
         pdf = FPDF(orientation='P', unit='pt', format='A4')
         pdf.add_page()
 
+        pdf.set_font(family="Times", style="B", size=24)
+        pdf.cell(w=0, h=80, txt="Harkins Theaters Ticket", border=1, ln=1, align="C")
+
         pdf.set_font(family="Times", style="B", size=14)
         pdf.cell(w=100, h=25, txt="Name: ", border=1)
         pdf.set_font(family="Times", style="", size=12)
@@ -124,7 +127,7 @@ class Ticket:
         pdf.cell(w=0, h=25, txt=str(self.seat_number), border=1, ln=1)
         pdf.cell(w=0, h=5, txt="", border=0, ln=1)
 
-        pdf.output("sample,pdf", 'F')
+        pdf.output("sample.pdf", 'F')
 
 
 if __name__ == "__main__":
