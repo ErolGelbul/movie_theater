@@ -82,7 +82,7 @@ If you would like to add any extra features to the optimisation simulation, feel
 
 Erol Gelbul - [Website](http://www.erolgelbul.com) - erolgelbul@gmail.com
 
-Project Link: [Movie_Theater](https://github.com/ErolGelbul/movie_theater)
+Project Link: [Movie Theater](https://github.com/ErolGelbul/movie_theater)
 
 <p align="right">(<a href="#top">back to top</a>)</p>
 
